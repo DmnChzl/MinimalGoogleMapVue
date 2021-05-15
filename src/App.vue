@@ -13,7 +13,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import GMap from '../lib/GMap.vue';
+import { GMap } from '../lib';
 import styleArray from './styleArray';
 
 const API_KEY = import.meta.env.VITE_API_KEY;

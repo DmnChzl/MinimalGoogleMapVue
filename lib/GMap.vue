@@ -113,10 +113,12 @@ export default defineComponent({
                 marker.addListener('click', onClick);
               }
             });
-
-            gMapRef.value.style.height = '100%';
           }
         });
+      }
+
+      if (gMapRef.value !== null) {
+        gMapRef.value.style.height = '100%';
       }
     });
 

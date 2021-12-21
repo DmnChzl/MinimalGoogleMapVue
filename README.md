@@ -1,8 +1,8 @@
-[![npm](https://img.shields.io/npm/v/@mrdoomy/mnml-gmap-vue.svg)](https://github.com/mrdoomy/minimalgooglemapvue) [![minified size](https://img.shields.io/bundlephobia/min/@mrdoomy/mnml-gmap-vue.svg)](https://www.npmjs.com/package/@mrdoomy/mnml-gmap-vue) [![beerware](https://img.shields.io/badge/license-beerware-orange.svg)](https://wikipedia.org/wiki/beerware)
+[![npm](https://img.shields.io/npm/v/@dmnchzl/mnml-gmap-vue.svg)](https://github.com/dmnchzl/minimalgooglemapvue) [![minified size](https://img.shields.io/bundlephobia/min/@dmnchzl/mnml-gmap-vue.svg)](https://www.npmjs.com/package/@dmnchzl/mnml-gmap-vue) [![beerware](https://img.shields.io/badge/license-beerware-orange.svg)](https://wikipedia.org/wiki/beerware)
 
 # Minimal Google Map
 
-**[@mrdoomy](https://www.mrdoomy.xyz)/mnml-gmap-vue** is a **Vue** component to simply inject [Google Maps](https://maps.google.com) 🌍 inside your projet.
+**@dmnchzl/mnml-gmap-vue** is a **Vue** component to simply inject [Google Maps](https://maps.google.com) 🌍 inside your projet.
 
 This library is published under the Beerware license, which means you can do whatever you want with the code.
 
@@ -13,14 +13,14 @@ This project is powered by [ViteJS](https://vitejs.dev).
 First of all, you need to install the package:
 
 ```
-  npm install @mrdoomy/mnml-gmap-vue
+  npm install @dmnchzl/mnml-gmap-vue
 ```
 
 <details>
   <summary>Equivalent with Yarn</summary>
   
   ```
-    yarn add @mrdoomy/mnml-gmap-vue
+    yarn add @dmnchzl/mnml-gmap-vue
   ```
 </details>
 <br>
@@ -39,7 +39,7 @@ Then, use the component as these samples below:
   </template>
 
   <script>
-  import { GMap } from '@mrdoomy/mnml-gmap-vue';
+  import { GMap } from '@dmnchzl/mnml-gmap-vue';
 
   /**
    * The 'keyke' (Key + Fake = Cake) is a lie
@@ -82,7 +82,7 @@ Then, use the component as these samples below:
     </template>
 
     <script>
-    import { GMap } from '@mrdoomy/mnml-gmap-vue';
+    import { GMap } from '@dmnchzl/mnml-gmap-vue';
     import styleArray from './styleArray';
 
     const API_KEY = 'YLzo6G7hJxAg55x/EvkEaPTvoO/PhQ9ASxzZ5A6OsNJLE4dxq+zK2lJ5Ta7/z5bbtQ9C2f2jDRRW6JyUArVIpQ==';
@@ -134,7 +134,7 @@ If you want more,
 You can clone the project:
 
 ```
-git clone https://github.com/mrdoomy/minimalgooglemapvue.git
+git clone https://github.com/dmnchzl/minimalgooglemapvue.git
 ```
 
 Install dependencies:
